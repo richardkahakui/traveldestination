@@ -1,27 +1,37 @@
 body {
-  background-image: url("tahiti-image.jpg");
+  background-color: black;
+  background-image: url("tahiti-background.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   font-family: 'Pacifico', cursive;
 }
 
-.black-box {
-  height: 325px;
-  width: 325px;
-  margin-top: 50px;
-  background-color: #000;
-  text-align: center;
-}
-
-.flag-image {
-  margin-top: ;
-  width ;
-  border-radius: ;
-}
-
-h1,h2 {
-  font-family: 'Pacifico', cursive;
+p{
+  font-size: 125%;
+ color: darkgrey;
 }
 
 a {
-  color: white;
+  color: beige;
 }
+.blackbox {
+  margin: 0 auto;
+  width: 325px;
+  height: 325px;
+  background: black;
+  padding: 20px;
+  color: beige;
+  margin-top: 50px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 225%;
+}
+
+.flag-image {
+  margin-top: 40px;
+  width: 100px;
+  border-radius: 100%
+}
+
